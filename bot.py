@@ -1,3 +1,4 @@
+"""
 Polymarket 5-Minute BTC Probability Trading Bot
 ================================================
 Temporal arbitrage + order flow + Kelly Criterion + compounding.
@@ -5,6 +6,7 @@ All ASCII-safe for Windows. No LLM dependency.
 
 Run setup_keys.py FIRST, then test_connection.py, then this.
 Usage: python bot.py [--live] [--fund 150] [--min-edge 0.03]
+"""
 
 from __future__ import annotations
 
